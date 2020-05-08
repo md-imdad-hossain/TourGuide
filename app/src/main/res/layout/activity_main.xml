@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/nwt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/htl" />
+
+        <Button
+            android:id="@+id/restaurant"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/restau" />
+
+        <Button
+            android:id="@+id/taxi"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tax" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shopping"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/so" />
+
+        <Button
+            android:id="@+id/clinics"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/cl" />
+
+        <Button
+            android:id="@+id/travel"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/ta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/institution"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ins" />
+
+        <Button
+            android:id="@+id/spa"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/spaas" />
+
+        <Button
+            android:id="@+id/things"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/gallery" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B2FF59"
+            android:gravity="center"
+            android:text="Copyright. Developed By Imdad Hossain"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
+
